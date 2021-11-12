@@ -1,0 +1,233 @@
+{
+  "basename": "v2.mbtiles",
+  "id": "v2",
+  "filesize": 1667440640,
+  "name": "Geolonia",
+  "version": "3.0+64a2207a3afdc7e582b9576f4c76ef9b",
+  "description": "Tiles built by Geolonia.",
+  "minzoom": 8,
+  "maxzoom": 14,
+  "bounds": [
+    122.5607,
+    20.08228,
+    154.4709,
+    45.80245
+  ],
+  "vector_layers": [
+    {
+      "id": "place",
+      "fields": {
+        "capital": "Number",
+        "class": "String",
+        "disputed": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "osm_id": "String",
+        "rank": "Number",
+        "subclass": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "boundary",
+      "fields": {
+        "admin_level": "Number",
+        "class": "String",
+        "disputed": "Number",
+        "maritime": "Number"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "poi",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "osm_id": "String",
+        "rank": "Number",
+        "subclass": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 13,
+      "maxzoom": 14
+    },
+    {
+      "id": "housenumber",
+      "fields": {
+        "class": "String",
+        "housenumber": "String"
+      },
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "waterway",
+      "fields": {
+        "class": "String",
+        "intermittent": "Number"
+      },
+      "minzoom": 10,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation",
+      "fields": {
+        "access": "String",
+        "brunnel": "String",
+        "class": "String",
+        "oneway": "Number",
+        "service": "String",
+        "subclass": "String"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation_name",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "subclass": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 8,
+      "maxzoom": 14
+    },
+    {
+      "id": "building",
+      "fields": {
+        "name": "String",
+        "osm_id": "String",
+        "rank": "Number",
+        "render_height": "Number",
+        "render_min_height": "Number"
+      },
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "water",
+      "fields": {
+        "class": "String",
+        "intermittent": "String"
+      },
+      "minzoom": 6,
+      "maxzoom": 14
+    },
+    {
+      "id": "water_name",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "osm_id": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "aeroway",
+      "fields": {
+        "class": "String",
+        "ref": "String"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "aerodrome_label",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "iata": "String",
+        "icao": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "osm_id": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 10,
+      "maxzoom": 14
+    },
+    {
+      "id": "park",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "name": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "osm_id": "String",
+        "wikidata": "String"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "landuse",
+      "fields": {
+        "class": "String"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "landcover",
+      "fields": {
+        "class": "String",
+        "subclass": "String"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "mountain_peak",
+      "fields": {
+        "class": "String",
+        "disputed": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "name": "String",
+        "osm_id": "String",
+        "rank": "Number"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "japan_northern_territories",
+      "fields": {
+        "class": "String"
+      },
+      "minzoom": 20,
+      "maxzoom": 20
+    }
+  ],
+  "tilejson": "2.0.0",
+  "scheme": "xyz",
+  "type": "baselayer",
+  "format": "pbf",
+  "attribution": "<a href=\"https://geolonia.com/credit/\" target=\"_blank\">&copy; Geolonia</a> | <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a>",
+  "tiles": [],
+  "center": [
+    138.5158,
+    32.942365,
+    11
+  ]
+}

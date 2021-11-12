@@ -1,0 +1,23 @@
+{
+  "attribution": "<a href=\"https://geolonia.com/credit/\" target=\"_blank\">&copy; Geolonia</a> | <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a>",
+  "bounds": [
+    122.5607,
+    20.08228,
+    154.4709,
+    45.80245
+  ],
+  "description": "Tiles built by Geolonia.",
+  "format": "pbf",
+  "scheme": "xyz",
+  "version": "3.0+64a2207a3afdc7e582b9576f4c76ef9b",
+  "maxzoom": 14,
+  "minzoom": 8,
+  "center": [
+    138.5158,
+    32.942365,
+    11
+  ],
+  "tiles": [
+    "https://tileserver.geolonia.com/v2/tiles/{z}/{x}/{y}.pbf?v=3.0%2B64a2207a3afdc7e582b9576f4c76ef9b&key=YOUR-API-KEY"
+  ]
+}
