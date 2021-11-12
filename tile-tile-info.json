@@ -1,0 +1,101 @@
+{
+  "scheme": "tms",
+  "basename": "tiles.mbtiles",
+  "id": "tiles",
+  "filesize": 503808,
+  "name": "tiles.mbtiles",
+  "description": "tiles.mbtiles",
+  "version": "2",
+  "minzoom": 8,
+  "maxzoom": 11,
+  "center": [
+    39.471944,
+    -69.005653,
+    11
+  ],
+  "bounds": [
+    39.471944,
+    -69.040285,
+    39.609387,
+    -68.996767
+  ],
+  "type": "overlay",
+  "format": "pbf",
+  "generator": "tippecanoe v1.36.0",
+  "generator_options": "tippecanoe --force --output tiles.mbtiles '--maximum-zoom=11' '--minimum-zoom=8' --no-tile-size-limit --no-feature-limit",
+  "vector_layers": [
+    {
+      "id": "area",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "分類": "String",
+        "名称": "String",
+        "図式コード": "Number",
+        "大分類": "String"
+      }
+    },
+    {
+      "id": "building",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "分類": "String",
+        "名称": "String",
+        "図式コード": "Number",
+        "大分類": "String"
+      }
+    },
+    {
+      "id": "coastline",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "分類": "String",
+        "名称": "String",
+        "図式コード": "Number",
+        "大分類": "String"
+      }
+    },
+    {
+      "id": "contour",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "分類": "String",
+        "名称": "String",
+        "図式コード": "Number",
+        "大分類": "String",
+        "標高": "Number"
+      }
+    },
+    {
+      "id": "line",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "図式コード": "Number"
+      }
+    },
+    {
+      "id": "symbol",
+      "description": "",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "fields": {
+        "分類": "String",
+        "名称": "String",
+        "名称（読み": "String",
+        "回転角度": "Number",
+        "図式コード": "Number",
+        "大分類": "String",
+        "標高": "Number"
+      }
+    }
+  ]
+}
